@@ -1,0 +1,172 @@
+*{
+	padding: 0;
+	margin:0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: monsterrat;
+	
+	
+}
+
+
+
+
+
+.menu-container{
+
+
+
+    background-color: black;
+    background-attachment: fixed  ;
+    padding-bottom: 100px;
+    
+
+
+    height: 250vh;
+    margin-top: 150px;
+
+
+
+
+}
+
+.img-menu:hover{
+	transform: scale(1.05);
+	filter: brightness(1.2);
+
+
+
+}
+
+
+
+
+
+
+.img-menu{
+	
+	height: 450px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	
+    transition: all 0.4s;
+    
+    background-size: cover;
+    background-position: center;
+
+	
+    margin: 0 auto;
+
+
+	flex-direction: row;
+	
+	flex-flow: wrap;
+	justify-content: space-around;
+	
+    margin-bottom: 50px;
+    color:ghostwhite ;
+    font-size: 2rem;
+	
+}
+
+
+@media (max-width:700px){
+    .menu-row {
+    	width: 340px;
+    }
+
+	
+}
+
+
+
+
+.menu-ime{
+    border: ghostwhite 2px solid;
+    padding: 8px 8px;
+    margin: 10px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: ghostwhite;
+
+    
+  
+}
+
+
+
+
+.menu-ime:hover{
+    
+    background-color: ghostwhite;
+    color: black;
+    transition: ease 0.4s;
+    
+    
+
+}
+
+
+
+
+
+.menu-pijace-container{
+	background-color: black;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+	display: block;
+	border:solid 2px ghostwhite;
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 20px;
+	max-height: 80vh;
+	overflow: scroll;
+	scroll-behavior: ;
+    
+  }  
+
+
+.artikel-cena{
+	color: ghostwhite;
+	float: right;
+	font-size: 1.3rem;
+	padding-top: 9px;
+	
+}
+
+.artikel{
+	font-size: 1.5rem;
+	color: ghostwhite;
+
+   
+}
+
+.napis-pod-artiklom{
+    color: ghostwhite;
+	padding-left: 0px;
+}
+
+.kategorija{
+    text-align: center;
+    margin: 20px;
+    color:ghostwhite;
+    /*color: #e1d8ca;*/
+}
+
+header.sticky{
+    
+    background-color: black;
+    transition: ease 0.7s;
+}
+
+.subtitle{
+    text-align: center;
+    margin-top: 175px;
+    font-size: 3.5rem;
+    font-family: raleway;
+    font-weight: 200;
+    color: ghostwhite;
+}
+
+

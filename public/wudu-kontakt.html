@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WUDU lounge</title>
+    <link rel="stylesheet" href="wudu_stylesheet2.1.css">
+    <link rel="stylesheet" href="kontakt_css.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+
+
+
+<body>
+
+   <header>
+        <nav>
+                                  
+            <a  href="/"><img class="wudu-napis" src="images/wudu_logo_napis.png"></a>
+            <ul class="menu-links">
+                <li class="hideOnMobile"><a href="/">DOMOV</a></li>
+                <li class="hideOnMobile"><a href="/reservation">REZERVACIJE</a></li>
+                <li class="hideOnMobile"><a href="/menu">MENI</a></li>
+                <li class="hideOnMobile"><a href="/contact">KONTAKT</a></li>
+                <li class="hideOnMobile"><a href="/gallery">GALERIJA</a></li>
+                <li  onclick=showSidebar() class="menu-button"><a class="material-icons" id="ikona1">menu</a></li>
+
+            </ul>
+
+            <ul class="sidebar">
+                <li onclick=hideSidebar() ><a class="material-icons" style="display: flex; float: right;">close</a></li>
+                <li><a href="/">DOMOV</a></li>
+                <li><a href="/reservation">REZERVACIJE</a></li>
+                <li><a href="/menu">MENI</a></li>
+                <li><a href="/contact">KONTAKT</a></li>
+                <li><a href="/gallery">GALERIJA</a></li>
+                <div class="sidebar-ikone">
+                <div class ="sidebar-ikone-inner">
+                    <a class="material-icons" class="ikonce" href="#">facebook</a>
+                    <a class="material-icons" class="ikonce" href="#">tiktok</a>
+                </div>
+                </div>
+
+
+            </ul>
+        </nav>
+
+    </header>
+
+
+
+<div class="shadowdol">
+<div class="kontakt-section">
+
+    <div class="kbox1">
+     
+
+         
+    <h2 class="nekh2">KJE SE NAHAJAMO</h2> 
+    <p><span style="color:#d435da "> Hruševska cesta 4 <br> 1000 Ljubljana </span></p>
+     
+   <br>
+  
+          <div class="odpiralni-cas">
+    <h2> ODPIRALNI ČAS</h2>       <br> 
+    <p><span style="color:#d435da ">Pon-Čet: </span> 06-22</p>
+    <p><span style="color:#d435da ">Pet-Sob: </span> 06-23</p>
+    <p><span style="color:#d435da ">Ned: </span> 8-21</p>
+    </div>
+
+      <h2 class="nekh2">TELEFONSKA ŠTEVILKA</h2>
+
+     <p class="pinktext">+𝟥𝟪𝟨 𝟨𝟫 𝟫𝟣𝟦 𝟫𝟫𝟫</p>
+      <h2 class="nekh2">ELEKTRONSKA POŠTA</h2>     
+      <p class="pinktext">blabla@gmail.com</p>
+ 
+
+
+    <h2 class="nekh2">SLEDITE NAM</h2>
+        <div class="media-icons" >
+          
+          <a class="material-icons" href="#">facebook</a>
+          <a class="material-icons" href="#">tiktok</a>
+
+        </div>
+          
+
+    </div>
+    
+
+
+
+
+
+
+
+
+        <section class="kbox2">
+        <h2 class="kontaktnapis">PIŠITE NAM</h2><BR><BR>
+
+        <form action="#">
+            <div class="dbl-field">
+                <div class="field">
+                    <input type="text" placeholder="Ime" id="name" class="item" autocomplete="off">
+                    
+                </div>
+                <div class="field">
+                    <input type="text" placeholder="Priimek" id="priimek" class="item" autocomplete="off">
+                    
+                </div>   
+
+
+
+
+
+
+
+            </div>
+
+            <div class="dbl-field">
+                <div class="field">
+                    <input type="text" placeholder="Telefonska številka" id="phone" class="item" autocomplete="off">
+                    
+                </div>
+                <div class="field">  
+                    <input type="text" placeholder="Email " id="email" class="item" autocomplete="off">
+                    
+                </div>
+            </div>
+
+            <div class="message">
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Vaše Sporočilo" class="item" autocomplete="off"></textarea>
+                <div class="error-txt"></div>
+            </div>
+            
+            <div class="button-area">
+            
+            <button type="submit">Pošlji sporočilo</button>
+          </div>
+        </form>
+    </section>
+
+    </div >
+
+</div>
+
+<div class="zemljevid">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3488.9908612501285!2d14.542742431614203!3d46.04683118906917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47652dd576a36f21%3A0x94f190dffa544844!2sLounge%20%26%20Caffe%20Bar%20WUDU!5e0!3m2!1ssl!2ssi!4v1710105129080!5m2!1ssl!2ssi" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- footer    -->
+
+<footer>
+    <a  href="/"><img class="wudu-napis2" src="images/wudu_logo_napis.png"></a> <br><br>
+
+    <span style="color:#d435da ; font-size: 1.5rem;">REZERVACIJE NA:</span> <p>+𝟥𝟪𝟨 𝟨𝟫 𝟫𝟣𝟦 𝟫𝟫𝟫</p>
+
+    <p style="margin-top:25px">𝖧𝗋𝗎𝗌𝖾𝗏𝗌𝗄𝖺 𝖼𝖾𝗌𝗍𝖺 𝟦<br> 1000 𝖫𝗃𝗎𝖻𝗅𝗃𝖺𝗇𝖺</p>  
+    <div class="odpiralni-cas">
+    <p><span style="color:#d435da ">Pon-Čet: </span> 06-22</p>
+    <p><span style="color:#d435da ">Pet-Sob: </span> 06-23</p>
+    <p><span style="color:#d435da ">Ned: </span> 8-21</p>
+    </div>
+
+
+
+    <div class="media-icons">
+        <a class="material-icons ikon" href="#">facebook</a>
+        
+        <a class="material-icons ikon" href="#">tiktok</a>
+
+    </div>
+
+ 
+</footer> 
+
+
+<script >
+
+function showSidebar(){
+    const sidebar = document.querySelector(".sidebar")
+    sidebar.style.right="0vw"
+
+ 
+
+}
+
+function hideSidebar(){
+	const sidebar = document.querySelector(".sidebar")
+    sidebar.style.right="-100vw"
+
+
+}
+
+</script>
+
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js">
+        
+</script>
+
+<script type="text/javascript">
+    window.addEventListener("scroll", function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY>75);
+
+    })
+</script>
+
+</body>
+
+
+
+
+
+
+</html>

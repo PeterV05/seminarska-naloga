@@ -1,0 +1,341 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: montserrat;
+
+}
+
+body{
+    background-color: black;
+
+
+
+}
+
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.2) 8%, rgba(0,0,0,0.2) 10%, rgba(0,0,0,0) 23%), url(images/wudu_ozadje.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height:100vh;
+    background-attachment: fixed;
+    box-shadow: 0px -50px 80px black inset;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+header{
+    z-index: 99;
+    font-family: roboto;
+    position: fixed;           
+    top:0;
+    left:0;
+    width:100%;
+    padding:30px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-links{
+    display: flex;
+    gap:35px;
+}
+
+.wudu-napis{
+    width: 222px;
+    height:55.5px;
+    display: block;
+   
+
+}
+
+.wudu-napis2{
+    width: 222px;
+    height:55.5px;
+    display: flex;
+    margin: 0 auto;
+   
+
+}
+
+
+.ikon{
+    /*
+
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    */
+
+}
+
+
+
+/*
+
+.logo{
+    font-size: 2.2rem;
+    color: ghostwhite;
+}
+*/
+nav a{
+    color:ghostwhite;
+    transition: 0.2s ease;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+ 
+}
+
+nav a:hover{
+    color:#d435da ;                       /*#eb62b0 pink barva    */      #BF40BF                           
+    cursor: pointer;
+}
+
+
+nav a:active{
+    color: #d435da;                                  
+
+}
+
+
+
+
+
+.sidebar{
+    position: fixed;
+    top:0;
+    right:-250px;
+    height: 100vh;
+    width: 250px;
+    z-index: 100;
+    background-color: #111111;
+    /*box-shadow: -10px 0 10px rgba(0, 0, 0, 1.0);*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transition: 0.5s ease right;
+
+
+
+}
+
+.sidebar li{
+    height: 50px ;
+    padding:20px;
+
+}
+
+
+.sidebar li:first-child{
+    margin-top: 70px;
+}
+
+
+
+.menu-button{
+    display:none;
+
+}
+
+
+
+       /* make site responsive  */
+
+/*definiras class hide on mobile   !!!! vsi elementi ki bojo meli hideOnMobile tag nebojo videni na devicesih manjsih od 800px*/
+@media(max-width: 900px){
+    .hideOnMobile{
+        display: none;
+
+    }     
+    .menu-button{
+        display: block;
+    }    
+
+    .wudu-platnica-logo{
+        
+        width:550px;
+        height: 550px;
+    }
+              
+}
+@media(max-width: 700px){
+  
+    
+    .wudu-platnica-logo{
+        
+        width:450px;
+        height: 450px;
+    }
+             
+}
+
+@media(max-width:550px){
+    .wudu-platnica-logo{
+        width:400px;
+        height: 400px;
+        
+    }
+    .sidebar{
+        right: -100vw;
+        width: 100vw    ;
+        
+    }
+}
+
+
+
+
+
+/* zdj bomo nrdiil, da ce je enran cist manhen bo side bar cez cel ekran*/
+
+
+footer{
+
+    background-color: black;
+    color: ghostwhite;
+ 
+    bottom:0;
+    width:100%;
+    padding: 100px 0 100px 0;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    line-height:2rem;
+
+    margin-top: 100px;
+
+}
+
+
+
+.media-icons a{
+    padding:10px;
+    background-color: ghostwhite;
+    margin: 10px;
+    border-radius: 15%;
+    font-size: 2rem;
+    color: black;
+
+
+
+}
+
+.media-icons a:hover{
+    background-color: #d435da;   
+    transition: 0.5s;
+    color:ghostwhite;
+
+}
+
+
+
+
+
+.odpiralni-cas{
+    margin: 25px;
+
+}
+
+p{
+  color: ghostwhite;
+  font-size: 1.3rem;
+
+}
+
+.pijaca-container{
+
+
+    
+    border: 2px solid ghostwhite;
+    padding: 10px;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.container2 {
+    position: relative;
+    
+
+    border: rgb(0, 0, 0) 2px solid ;
+    margin-bottom: 20px; /* Added margin for spacing */
+    margin: 10px;
+
+    border: ghostwhite solid 2px;
+}
+
+.submenu {
+    width: 100%;
+    padding: 20px;
+    cursor: pointer;
+    margin: 10px 0 0 0;
+    font-size: 1.5rem;
+
+    color: ghostwhite;
+}
+
+.dropdown-content {
+    padding: 0 20px 20px 20px;
+    
+    display: none;
+    position: relative;
+    background-color: black;  
+    min-width: 160px;
+
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+
+
+
+
+.show {
+    display: block;
+    
+    
+}
+
+
+
+.artikel-cena{
+    color: ghostwhite;
+    float: right;
+    font-size: 1.2rem;
+    padding-top: 9px;
+
+    
+}
+
+.artikel{
+    font-size: 1.5rem;
+    color: ghostwhite;
+
+   
+}
+
+.napis-pod-artiklom{
+    color: ghostwhite;
+    padding-left: 0px;
+    font-size: 1rem;
+}
+
+header.sticky{
+    
+    background-color: black;
+    transition: ease 0.7s;
+}
