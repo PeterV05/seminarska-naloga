@@ -6,8 +6,8 @@ const fs = require("fs");
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'vajda.peter101@gmail.com',
-        pass: 'llil mweb fiam weuh' // TO ZAMENJI
+        user: '', // TUKI RABS DAT TIST MEIL IS KERGA SE POSILJA
+        pass: '' // TO JE TREBA ZAMENJAT S GMAIL NEKIM PRIVATE KEYOM
     }
 });
 
